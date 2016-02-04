@@ -6,15 +6,15 @@
 
 So you've found yourself on this page and your thinking oh but i need to support IE6 and/or IE7 as well? I'm sorry i can not help you, no one can help you...
 
-Effective January 12, 2016, Internet Explorer 8 is no longer supported on any version of Windows. <strong> Rejoice </strong>
+Effective January 12, 2016, Internet Explorer 8 is no longer supported on any version of Windows. <strong> Rejoice </strong> :tada:
 
 
 ## HTML
 
 <p>IE provides basically no support for HTML5 which is the most recent version of HTML and has been for the past 5 years. For example IE8 will not support such things as section, article, nav, header, footer, aside and canvas tags. This isn’t really to much of an issue because the tags mentioned above besides canvas are semantic elements and therefore don’t function to much differently than your standard div tag. IE8 and all other browsers should handle unknown elements as inline-elements so you can add some simple CSS to make them act like they should</p>
 
-``` CSS
-header, section, footer, aside, nav , main, article,  figure {
+```CSS
+header, section, footer, aside, nav , main, article, figure {
 	Display: block;
 }```
 
