@@ -1,4 +1,4 @@
-# IE8-Documentation
+# IE8-Documentation :shipit:
 
 ## The Reality of Developing for IE8 in 2016 and beyond. :cry:
 
@@ -23,7 +23,7 @@ header, section, footer, aside, nav , main, article, figure {
 
 <p>Additionally, IE8 does not support SVG elements which means that you cant use popular graphical library’s such as D3.js</p>
 
-<p>One of the tools which you should look into is modernizr.js library which will provide feature-detection letting you support IE8 easier. While there may be ways to hack around this it ultimately is not work the development effort.</p>
+<p>One of the tools which you should look into is modernizr.js library which will provide feature-detection letting you support IE8 easier. While there may be ways to hack around this it ultimately is not worth the development effort.</p>
 
 
 ## CSS
@@ -40,8 +40,33 @@ header, section, footer, aside, nav , main, article, figure {
 
 <p>Additionally, you may come across some strange activity when using popular CSS frameworks, however the most successful CSS framework to use would be bootstrap. However, there are no guarantees that you will have full support.</p>
 
+<p>It is widely accepted to create a seperate stylesheet for IE8. While this is more development work it will ensure that your CSS is a little bit more future proofed.
+
 <p>IE8 is famous as the devil in browser form for many reasons one of these being to do with the CSS. God help you if something’s not correctly placed when it should be it will take over the next 3 days of your life… </p>
 
 ![alt text](IE8Memes/ie8.jpg?raw=true)
 
 ## JavaScript
+
+<p>Starting a new JavaScript project which needs to support IE8? Abort.:fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire::fire:</p>
+
+<p><strong> IE8 does not support most of ES5 </strong> and lets not even think about ES6. However all is not lost and there is help out there, es5-shim was designed to monkey patch https://github.com/es-shims/es5-shim </p>
+
+### JavaScript Frameworks
+
+Most JS frameworks that you know and love will not support IE8 and if they do it will be an old version which may potentially have bugs and issues.
+
+| Frameworks    | IE8 Support       | Version    |
+| :-------------|:---------------:  | :--------: |
+| Angular       | Partially         | 1.2 or less|
+| React         | No                | :frowning: |
+| Knockout      | Yes :open_mouth:  | 3.x        |
+| jQuery        | Partially         | 1.x        |
+| Ember         | Partially         | 1.x        |
+| Meteor        | Yes :open_mouth:  | 1.x        |
+| Backbone      | Depends         ? | :frowning: |
+
+
+## References
+
+<p> This page is a collection of my own experience developing for IE8 and a mixture of materials and memes found on the internet</p>
